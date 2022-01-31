@@ -1,0 +1,26 @@
+body{
+    
+    text-align: center;
+}
+
+nav.enlaces{
+    text-align: left;
+}
+section{
+    border: black 1px solid;
+    padding: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: auto;
+}
+
+.tam{
+    width: 80%;
+    height: 40px;
+    
+}
+.enviar{
+    background-color: orange;
+    width: 80%;
+    height: 40px;
+}
