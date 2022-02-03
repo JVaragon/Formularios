@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,24 @@
 </head>
 
 <body>
-    <nav class="enlaces"><p>Enlaces al resto de formularios:</p>
+    <nav class="enlaces">
+        <p>Enlaces al resto de formularios:</p>
         <a href="formulario1.html">Segundo formulario</a>
-        
+
     </nav>
     <section>
         <form action="">
             <h2>Accede a tu Área de Clientes</h2>
-            <h3>Elige tu documento</h3>
-            <p><input name="formu" type="radio">DNI o Tarjeta de residencia</p>
-            <p><input name="formu" type="radio">Pasaporte</p>
-            <p>Numero de documento</p>
-            <input class="tam" type="text" placeholder="DNI o tarjeta de residencia">
-            <br>
-            <p>Fecha de nacimiento</p>
-            <input class="tam" type="date">
-           <p> <input type="checkbox" name="" id=""> Recordar </p>
-            <p><input class="enviar" type="submit" value="Enviar" ></p>
+            <h4>Elige tu documento</h3>
+                <p><input name="formu" type="radio">DNI o Tarjeta de residencia</p>
+                <p><input name="formu" type="radio">Pasaporte</p>
+                <p>Numero de documento</p>
+                <input class="tam" type="text" placeholder="DNI o tarjeta de residencia">
+                <br>
+                <p>Fecha de nacimiento</p>
+                <input class="tam" type="date">
+                <p> <input type="checkbox" name="" id=""> Recordar </p>
+                <p><input class="enviar" type="submit" value="Enviar"></p>
         </form>
     </section>
     <hr>
@@ -35,14 +37,51 @@
         <h2>Empieza creando tu usuario</h2>
         <input class="largo" type="text" placeholder="Nombre (como sale en el DNI)">
         <br>
-        <input class="cuadritos" type="text" placeholder="1º apellido" >
-        <input class="cuadritos" type="text" placeholder="2º apellido" >
+        <input class="cuadritos" type="text" placeholder="1º apellido">
+        <input class="cuadritos" type="text" placeholder="2º apellido">
         <br>
-        <input type="search" name="" id="">
-        <form action="">
-       
+
+        <select class="cuadritos" Tipo de documento>
+            <option value="0">DNI/NIF/CERT.AEAT</option>
+            <option value="1">DNI</option>
+            <option value="2">NIF</option>
+            <option value="3">CERT.AEAT</option>
+        </select>
+        <input class="cuadritos" type="text" placeholder="Numero de documento">
         </form>
+        <br>
+        <input class="cuadritos" type="text" placeholder="Móvil">
+        <input class="cuadritos" type="text" placeholder="Email">
+        <br>
     </section>
+
+    <hr>
+    <h1>¿Eres nuevo?</h1>
+    <h5>Regístrate para guardar tu información y hacer tus pedidos de forma más facil y rápida.</h4>
+        <p>Email</p>
+        <input type="text" placeholder="Introduce tu email">
+
+        <p class=>Teléfono</p>
+        <input type="text" placeholder="Tu teléfono">
+
+
+        <p>Contraseña</p>
+
+        <input type="password" placeholder="Introduce tu contraseña">
+        </form>
+
+        <p>Confirma tu contraseña</p>
+
+        <input type="password" placeholder="Confirmar contraseña">
+
+        <p><input type="checkbox" value=""> He leído y acepto <a style="color: rgb(88, 88, 88);"
+                href="blank">Política de privacidad</a></p>
+        <p><input type="checkbox" value=""> Sí, acepto recibir comunicaciones comerciales y
+            <br>
+            ofertas personalizadas según mi perfil.
+        </p>
+        <input class="enviar3" type="text" value="Crea tu cuenta">
+        </section>
 </body>
 
 </html>
